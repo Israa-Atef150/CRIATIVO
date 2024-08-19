@@ -241,7 +241,7 @@ p.studio-text {
 .card {
     background-color: #141414; 
     padding: 20px;
-    flex-basis: calc(50% - 10px); /* يجعل كل بطاقة تأخذ نصف العرض مع وجود مساحة بين البطاقات */
+    flex-basis: calc(50% - 10px); 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
