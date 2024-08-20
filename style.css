@@ -44,13 +44,7 @@ body {
 
 .navbar .logo {
     font-size: 3rem;
-<<<<<<< HEAD
     color: var(--highlight-color);
-    
-=======
-    color: var(--primary-color);
-
->>>>>>> af8a708f43afdaff3e1b8be87a3d419dbaa2f87b
 }
 
 .navbar .nav-links {
@@ -64,16 +58,16 @@ body {
 }
 
 i.fa-search {
-<<<<<<< HEAD
+
     font-size: 20px; 
     color: var(--highlight-color);;
     margin-left: 20px; 
-=======
+
     font-size: 20px;
-    color: var(--primary-color);
-    ;
+    color: var(--highlight-color);
+  
     margin-left: 20px;
->>>>>>> af8a708f43afdaff3e1b8be87a3d419dbaa2f87b
+
 }
 
 .navbar .nav-links a {
@@ -89,13 +83,13 @@ i.fa-search {
     align-items: center;
 
     padding: 6rem 7rem;
-<<<<<<< HEAD
-    background: linear-gradient(to left, rgba(25, 82, 59, 4.7), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat center center / cover;
-=======
-    background: linear-gradient(to left, rgba(56, 82, 59, 4.7), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat right center;
->>>>>>> af8a708f43afdaff3e1b8be87a3d419dbaa2f87b
+
+    background: linear-gradient(to left top, rgba(121, 239, 252, 0.31), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat center center / cover;
+
+    background: linear-gradient(to left top   , rgba(121, 239, 252, 0.31), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat right center;
+
     position: relative;
-    color: var(--highlight-color);
+    color: #26f4ff;
 }
 
 
@@ -137,7 +131,7 @@ p.subtitle {
 .hr1 {
     border: none;
     height: 1px;
-    background-color: #00d4a9;
+    background-color: var(--highlight-color);
     width: 60px;
     margin: 5px;
 
@@ -180,7 +174,10 @@ p.subtitle {
     color: #fff;
     font-size: 20px;
 }
-
+.about-studio{
+    display: flex;
+    flex-direction: column;
+}
 .about-text {
     font-size: 16px;
     font-weight: bold;
@@ -253,9 +250,11 @@ p.studio-text {
     color: var(--highlight-color); 
     margin-bottom: 5px;
     position: relative;
+    font-size: 14px;
+    letter-spacing: 3px;
 }
 
-.text-section h2::after {
+.text-section h1::after {
     content: "";
     display: block;
     width: 50px;
@@ -272,6 +271,11 @@ p.studio-text {
 
 .text-section h1 span {
     color: var(--highlight-color); 
+}
+.text-section p{
+    font-size: 18px;
+    padding: 10px;
+    
 }
 
 .cards-section {
