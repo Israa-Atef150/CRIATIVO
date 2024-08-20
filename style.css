@@ -59,13 +59,14 @@ body {
 
 i.fa-search {
 
-    font-size: 20px; 
-    color: var(--highlight-color);;
-    margin-left: 20px; 
+    font-size: 20px;
+    color: var(--highlight-color);
+    ;
+    margin-left: 20px;
 
     font-size: 20px;
     color: var(--highlight-color);
-  
+
     margin-left: 20px;
 
 }
@@ -86,7 +87,7 @@ i.fa-search {
 
     background: linear-gradient(to left top, rgba(121, 239, 252, 0.31), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat center center / cover;
 
-    background: linear-gradient(to left top   , rgba(121, 239, 252, 0.31), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat right center;
+    background: linear-gradient(to left top, rgba(121, 239, 252, 0.31), rgba(20, 24, 20, -4.7)), url(imges/portrait.png ) no-repeat right center;
 
     position: relative;
     color: #26f4ff;
@@ -174,10 +175,12 @@ p.subtitle {
     color: #fff;
     font-size: 20px;
 }
-.about-studio{
+
+.about-studio {
     display: flex;
     flex-direction: column;
 }
+
 .about-text {
     font-size: 16px;
     font-weight: bold;
@@ -233,21 +236,23 @@ p.studio-text {
         font-size: 2rem;
     }
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
-    background-color: #111; 
+    background-color: #111;
     color: #fff;
 }
+
 .text-section {
     flex-basis: 40%;
 }
 
 .text-section h2 {
-    color: var(--highlight-color); 
+    color: var(--highlight-color);
     margin-bottom: 5px;
     position: relative;
     font-size: 14px;
@@ -259,7 +264,7 @@ p.studio-text {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: var(--highlight-color); 
+    background-color: var(--highlight-color);
     margin-top: 5px;
 }
 
@@ -270,12 +275,13 @@ p.studio-text {
 }
 
 .text-section h1 span {
-    color: var(--highlight-color); 
+    color: var(--highlight-color);
 }
-.text-section p{
+
+.text-section p {
     font-size: 18px;
     padding: 10px;
-    
+
 }
 
 .cards-section {
@@ -286,9 +292,9 @@ p.studio-text {
 }
 
 .card {
-    background-color: #141414; 
+    background-color: #141414;
     padding: 20px;
-    flex-basis: calc(50% - 10px); 
+    flex-basis: calc(50% - 10px);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -299,13 +305,13 @@ p.studio-text {
 }
 
 .card img {
-    max-width: 60px; 
+    max-width: 60px;
     margin-bottom: 15px;
 }
 
 .card:nth-child(2),
 .card:nth-child(3) {
-    background: linear-gradient(to bottom , #1414146f, #26f4ff6e); 
+    background: linear-gradient(to bottom, #1414146f, #26f4ff6e);
 }
 
 .card h3 {
@@ -317,7 +323,7 @@ p.studio-text {
 }
 
 .button {
-    background-color: #26f4ffe8; 
+    background-color: #26f4ffe8;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -328,24 +334,204 @@ p.studio-text {
 }
 
 .button:hover {
-    background-color: #019474; 
+    background-color: #019474;
 }
-
 
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .cards-section {
         flex-basis: 100%;
     }
-    
+
     .card {
         flex-basis: 100%;
     }
 }
 
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.about-content {
+    max-width: 50%;
+}
+
+.about-content h4 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-content h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.break-line {
+    display: block;
+    margin-top: 5px;
+}
+
+.hr3 {
+    border: none;
+    height: 1px;
+    background-color: var(--highlight-color);
+    width: 65px;
+    margin-bottom: 10px;
+}
 
 
+.about-content h1 span {
+    color: var(--primary-color);
+}
+
+.about-content p {
+    font-size: 1em;
+    line-height: 1.5;
+    word-spacing: 10px;
+}
+
+.features {
+    display: flex;
+    margin-top: 30px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-text h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.feature-text p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.feature-item img {
+    max-width: 50px;
+    margin-right: 15px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    margin-left: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .about-content {
+        max-width: 60%;
+    }
+
+    .about-image img {
+        margin-left: 0;
+        /* Remove margin on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .about-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 100%;
+        /* Make image container full width */
+        margin-bottom: 20px;
+        justify-content: center;
+        /* Center image horizontally */
+    }
+
+    .about-image img {
+        max-width: 90%;
+        /* Ensure image doesn't overflow */
+        height: auto;
+    }
+
+    .features {
+        justify-content: center;
+    }
+
+    .feature-item {
+        margin-right: 0;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-content h1 {
+        font-size: 1.8em;
+    }
+
+    .about-content p {
+        font-size: 0.9em;
+        word-spacing: 5px;
+    }
+
+    .feature-text h3 {
+        font-size: 1em;
+    }
+
+    .feature-text p {
+        font-size: 0.8em;
+    }
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #0c1c2e;
+    align-items: center;
+    background: linear-gradient(to left top, rgba(121, 239, 252, 0.31), rgba(20, 24, 20, -4.7)), url(imges/1.jpg ) no-repeat right center;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item img {
+    width: 70px;
+}
+
+.stat-item h2 {
+    font-size: 3em;
+    color: #23d997;
+}
+
+.stat-item span {
+    color: #ccc;
+}
+
+.stat-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
