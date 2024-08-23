@@ -69,7 +69,7 @@
                 <h3>Brand Identity</h3>
                 <p>We bring the right people together to challenge</p>
             </div>
-            <div class="card">
+            <div class="card card1">
                 <img src="imges/5-Web-Design.png" alt="Website Design">
                 <h3>Website Design</h3>
                 <p>We bring the right people together to challenge</p>
@@ -79,7 +79,7 @@
                 <h3>UI & UX Design</h3>
                 <p>We bring the right people together to challenge</p>
             </div>
-            <div class="card">
+            <div class="card card1">
                 <img src="imges/4-Video-Marketing.png" alt="Video Marketing">
                 <h3>Video Marketing</h3>
                 <p>We bring the right people together to challenge</p>
@@ -198,10 +198,12 @@
             <div class="video1">
                 <img src="./imges/apelah.jpg" alt="Video Thumbnail 1">
                 <div class="play-button"></div>
+                <i class=" fas fa-play" id="i2"></i>
             </div>
             <div class="video2">
                 <img src="./imges/11.jpg" alt="Video Thumbnail 2">
                 <div class="play-button"></div>
+                <i class=" fas fa-play" id="i1"></i>
             </div>
         </div>
     </section>
@@ -315,9 +317,15 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis quam eget.Lorem ipsum
                 dolor sit amet , consectetur adipiscing elit
             </p>
-            <img src="imges/11.jpg" alt="Client" class="client-img">
-            <p class="client-name">Adam Smith</p>
-            <p class="client-title">Businessman</p>
+            <div class="dd1">
+                <img src="imges/11.jpg" alt="Client" class="client-img">
+                <div class="dd2" style="margin-left: 10px;">
+                    <p class="p-0">Adam Smith</p>
+                    <p class="p-1">Businessman</p>
+                </div>
+                <p class="p-2">,,</p>
+            </div>
+        </div>
     </section>
 
     <section class="blog-section">
@@ -371,9 +379,12 @@
     <section class="contact-form-section">
         <div class="contact-form">
             <form class="form">
+                <label title="text" class="l1"> First Name </label>
                 <input type="text" placeholder="Your Name" class="input-field">
+                <label title="email" class="l1"> Your Email </label>
                 <input type="email" placeholder="Your Email" class="input-field">
-                <textarea placeholder="Your Message (optional)" class="input-field"></textarea>
+                <label title="tex" class="l1"> Your Message </label>
+                <textarea title="tex" placeholder="Your Message (optional)" class="input-field"></textarea>
                 <button type="submit" class="submit-btn">SEND MESSAGE</button>
             </form>
             <div class="contact-info">
