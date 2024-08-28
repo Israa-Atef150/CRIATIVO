@@ -792,9 +792,11 @@ p.studio-text {
 .team-section {
     text-align: center;
     padding: 60px 0;
-    background: #111;
     color: var(--text-color);
-    background: linear-gradient(to left top, rgba(14, 14, 15, 0.31), rgba(20, 24, 20, -4.7)), url(imges/Bg-1.jpg ) no-repeat right center;
+    background-image: url(imges/Bg-1.jpg), url(imges/Bg-1.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
 }
 
 .team-section h3 {
@@ -1070,7 +1072,8 @@ p.subtitle {
     margin: 0;
     color: var(--text-color);
 }
-.p-2{
+
+.p-2 {
     margin-left: 300px;
     font-size: 100px;
     font-family: "Font Awesome 6 Free";
@@ -1155,7 +1158,7 @@ p.subtitle {
     margin-top: 15px;
     line-height: 1.2;
     position: 5px 0;
-   
+
 }
 
 .date1 {
@@ -1303,7 +1306,7 @@ p.subtitle {
 
 .footer {
     text-align: center;
-    background:linear-gradient(to right, rgba(37, 233, 233, 0.199),rgba(20, 24, 20, -4.7));
+    background: linear-gradient(to right, rgba(37, 233, 233, 0.199), rgba(20, 24, 20, -4.7));
     padding: 20px;
     border-radius: 10px;
 }
@@ -1312,11 +1315,12 @@ p.subtitle {
     color: #1abc9c;
     font-size: 3rem;
 }
-.Copyright{
-   margin: 0;
-   color: #ffffff;
-   margin-top: 10px;
-   font-size: 14px;
+
+.Copyright {
+    margin: 0;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 .form-p1 {
@@ -1372,7 +1376,7 @@ p.subtitle {
     .navbar {
         padding: 1rem 2rem;
     }
-    
+
     .navbar .nav-links li {
         margin-left: 1.5rem;
     }
@@ -1383,26 +1387,26 @@ p.subtitle {
         padding: 3rem 4rem;
         flex-direction: column;
     }
-    
+
     .hero-content {
         max-width: 100%;
     }
-    
+
     .hero-image {
         max-width: 100%;
         margin-top: 2rem;
     }
-    
+
     .text-content {
         flex-basis: 100%;
         padding: 20px;
     }
-    
+
     .image-grid1 {
         flex-basis: 100%;
         margin-top: 20px;
     }
-    
+
     .wrapped-images img {
         width: calc(50% - 10px);
     }
@@ -1412,54 +1416,54 @@ p.subtitle {
     .navbar .nav-links {
         display: none;
     }
-    
+
     .navbar .logo {
         font-size: 2rem;
     }
-    
+
     .hero-content h1 {
         font-size: 2rem;
     }
-    
+
     .text-section h1 {
         font-size: 28px;
     }
-    
+
     .text-section p {
         font-size: 16px;
     }
-    
+
     .card {
         flex-basis: 100%;
         margin-bottom: 20px;
     }
-    
+
     .about-content h1 {
         font-size: 2rem;
     }
-    
+
     .about-content p {
         font-size: 14px;
     }
-    
+
     .team-member {
         width: 100%;
         margin-bottom: 20px;
     }
-    
+
     .team-member img {
         width: 80px;
         height: 80px;
     }
-    
+
     .statistics {
         flex-direction: column;
     }
-    
+
     .stat-item h2 {
         font-size: 2rem;
     }
-    
+
     .stat-item p {
         font-size: 1rem;
     }
@@ -1469,31 +1473,31 @@ p.subtitle {
     .hero-content h1 {
         font-size: 1.5rem;
     }
-    
+
     .text-section h1 {
         font-size: 24px;
     }
-    
+
     .text-section p {
         font-size: 14px;
     }
-    
+
     .card img {
         max-width: 40px;
     }
-    
+
     .about-content h1 {
         font-size: 1.5rem;
     }
-    
+
     .about-content p {
         font-size: 12px;
     }
-    
+
     .team-section h1 {
         font-size: 28px;
     }
-    
+
     .team-member h4 {
         font-size: 16px;
     }
